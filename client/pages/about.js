@@ -4,6 +4,6 @@ export default () => (
   <div>
     About Page
     <br/><br/>
-    <Link href="/"><a>Go Back</a></Link>
+    {/* <Link href="/"><a>Go Back</a></Link> */}
   </div>
 )
