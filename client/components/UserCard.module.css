@@ -1,0 +1,20 @@
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #2B8EAD;
+  border-color: #2B8EAD;
+}
+
+.card-title {
+  font-weight:900;
+}
