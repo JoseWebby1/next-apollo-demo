@@ -9,10 +9,10 @@ const Users = () => {
 
   const fetchMoreUsers = async (e) => {
     try {
-			const res = await fetch(
-				`${endpoint}?limit=20&skip=${skipLimit}`
-			);
-			const data = await res.json();
+      const res = await fetch(
+        `${endpoint}?limit=20&skip=${skipLimit}`
+      );
+      const data = await res.json();
       setUsers(data.users)
       setSkipLimit(skipLimit+20);
 		} catch (err) {
