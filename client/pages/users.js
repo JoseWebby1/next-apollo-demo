@@ -15,9 +15,9 @@ const Users = () => {
       const data = await res.json();
       setUsers(data.users)
       setSkipLimit(skipLimit+20);
-		} catch (err) {
-			console.log(err);
-		}
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   useEffect(() => {
